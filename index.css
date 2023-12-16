@@ -136,3 +136,25 @@ a{
 .col-4 h3{
     font-size: 16pt;
 }
+
+.tittle-products {
+    text-align: center;
+    margin: 0 auto 80px;
+    line-height: 60px;
+    color: #555;
+}
+
+/*  */
+.tittle-products::after {
+    content: ' ';
+    background: #ff523b;
+    width: 60px;
+    height: 5px;
+    border-radius: 5px;
+    
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
