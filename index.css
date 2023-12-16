@@ -99,7 +99,7 @@ a{
 
 
 #categories {
-    margin: 70px 0;
+    margin: 70px 0 25px;
 }
 
 
@@ -137,14 +137,17 @@ a{
     font-size: 16pt;
 }
 
+
+
 .tittle-products {
+    position: relative;
     text-align: center;
-    margin: 0 auto 80px;
+   
     line-height: 60px;
     color: #555;
 }
 
-/*  */
+/* add red underline under the fetured products tittle */
 .tittle-products::after {
     content: ' ';
     background: #ff523b;
